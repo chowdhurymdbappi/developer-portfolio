@@ -27,7 +27,7 @@ p{
     padding-left: 10%;
 }
 .half-width img{
-    width: 80%
+    width: 70%
 }
 .link-button{
     font-weight: 700;
@@ -40,4 +40,20 @@ p{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.brown-color{
+    color: brown;
+}
+.apple-green{
+    color:green;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+}
+#pixback{
+    background-image: url(images/pixback.jpg);
+}
+#pixb{
+    background-image: url(images/pixback.jpg);
 }
