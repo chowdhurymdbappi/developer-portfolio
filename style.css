@@ -49,6 +49,6 @@ p{
     color:green;
 }
 .dream-big{
-    background-image: url(images/dream-bg.png),url(images/pixback.jpg);
+    background-image: url(images/dream-bg.png);
     background-repeat:no-repeat,repeat;
 }
