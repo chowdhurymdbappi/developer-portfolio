@@ -12,6 +12,8 @@ h1{
 section{
     display: flex;
 }
+
+
 h3{
     font-size: 20px;
     color: darkblue;
@@ -50,5 +52,18 @@ p{
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
-    background-repeat:no-repeat,repeat;
+    background-repeat:no-repeat;
+}
+.top-design{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.linksp-button{
+    font-weight: 700;
+    text-decoration: none;
+    background-color:sandybrown;
+    color:whitesmoke;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-blend-mode: overlay;
 }
