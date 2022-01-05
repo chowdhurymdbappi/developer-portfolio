@@ -9,14 +9,17 @@ h1{
 .orange-color{
     color: brown;
 }
-section{
+
+.flexible-container{
     display: flex;
+
+
 }
 
 
 h3{
     font-size: 20px;
-    color: darkblue;
+    color:darkblue;
 }
 p{
     font-size: 15px;
@@ -29,8 +32,9 @@ p{
     padding-left: 10%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
 }
+
 .link-button{
     font-weight: 700;
     text-decoration: none;
@@ -40,10 +44,9 @@ p{
     border-radius: 5px;
 }
 .top-banner{
-    background-image: url(images/top-banner.png);
+    background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
-    
-}
+    }
 .brown-color{
     color: brown;
 }
@@ -61,9 +64,44 @@ p{
 .linksp-button{
     font-weight: 700;
     text-decoration: none;
-    background-color:sandybrown;
-    color:whitesmoke;
+    background-color:slateblue;
+    color:white;
     padding: 10px 40px;
     border-radius: 5px;
-    background-blend-mode: overlay;
+}
+.extra-design{
+    background-image:url(images/top-banner.png);
+    background-repeat:no-repeat
+}
+.experience-area{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    border-left:black 10px solid;
+
+}#fullstack{
+    border-left: 7px solid;
+    border-image:linear-gradient(purple, salmon);
+    border-image-slice: 1;
+
+}
+
+#android{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    
 }
